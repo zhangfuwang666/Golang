@@ -31,7 +31,7 @@ func main() {
 		fmt.Printf("良好")
 	case 50, 60, 70:
 		fmt.Printf("一般")
-	case 40:
+	case 60:
 		fmt.Printf("成绩小于50")
 	default:
 		fmt.Printf("差")
