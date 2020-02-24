@@ -66,9 +66,9 @@ func main() {
 	// 	}
 	// 	fmt.Println(p)
 	//数组
-	// var blanc = [...]int{1, 2, 3, 4, 5, 6}
-	// str := "100000000"
-	// fmt.Println(len(blanc), len(str))
+	var blanc = [...]int{1, 2, 3, 4, 5, 6}
+	str := "100000000"
+	fmt.Println(len(blanc), len(str))
 
 	var slice = make([]int, 3, 10)
 	slice = append(slice, 2)
