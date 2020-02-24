@@ -23,19 +23,19 @@ func main() {
 	// 	fmt.Printf("a1000")
 	// }
 	//Switch语句
-	// var ss int = 70
-	// switch ss {
-	// case 90:
-	// 	fmt.Printf("优秀")
-	// case 80:
-	// 	fmt.Printf("良好")
-	// case 50, 60, 70:
-	// 	fmt.Printf("一般")
-	// case 40:
-	// 	fmt.Printf("成绩小于50")
-	// default:
-	// 	fmt.Printf("差")
-	// }
+	var ss int = 70
+	switch ss {
+	case 90:
+		fmt.Printf("优秀")
+	case 80:
+		fmt.Printf("良好")
+	case 50, 60, 70:
+		fmt.Printf("一般")
+	case 40:
+		fmt.Printf("成绩小于50")
+	default:
+		fmt.Printf("差")
+	}
 
 	//for循环
 	// p := 0
